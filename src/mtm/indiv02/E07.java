@@ -15,9 +15,9 @@ public class E07 {
       
 
         //Inicio el bucle for para repetir la introdución de números fijando el inicio y el fin del enunciado
-        for (int i = 50; i < 97; i++) {
-            // con la estructura de selección if, hallamos los números pares
-            if (i % 2 == 0) {
+        for (int i = 50; i < 97; i+=2) {
+           // con la estructura de selección if, hallamos los números pares
+           // if (i % 2 == 0) {
                 numerosPares = i;
                 //con la estructura if-else damos forma a la salida por pantalla
                 if (numerosPares < 96) {
@@ -28,4 +28,4 @@ public class E07 {
             }
         }
     }
-}
+
