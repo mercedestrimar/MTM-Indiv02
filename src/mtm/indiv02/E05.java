@@ -82,7 +82,7 @@ public class E05 {
             } catch (ArithmeticException arException) {
                 System.out.println("¡¡Error!! La división no se puede llevar a cabo. El denominador es 0");
             }
-
+            
         } while (opcion != 5);
     }
 }
